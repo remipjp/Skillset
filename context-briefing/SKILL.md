@@ -5,7 +5,7 @@ description: Produce a plain-language, jargon-free briefing that gets a teammate
 
 Write a briefing that a smart teammate with **zero prior context** on this project can read once and understand what we're building and why. Assume the reader knows nothing about the product, the domain, the codebase, or the decisions made so far — but is intelligent and just needs the picture drawn for them.
 
-This skill assumes the feature/initiative has **already been researched and scoped** earlier in the session (e.g. via `/grilling`, `/grill-me-lensed`, `/research`, or Linear/codebase exploration). Its job is to distill that shared understanding into something shareable — not to do new discovery. If little context exists yet, gather it first (or tell the user), then brief.
+This skill assumes the feature/initiative has **already been researched and scoped** earlier in the session (e.g. via `/grilling`, `/grill-to-brief`, `/research`, or Linear/codebase exploration). Its job is to distill that shared understanding into something shareable — not to do new discovery. If little context exists yet, gather it first (or tell the user), then brief.
 
 ## Before writing — settle three things
 
