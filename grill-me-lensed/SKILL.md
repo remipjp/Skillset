@@ -11,13 +11,21 @@ If a decision has consequences across more than one lens, surface those conseque
 
 Explore the codebase before asking anything answerable by exploration. Propose a recommended answer for each question so the user can just confirm. Ask one question at a time. Summarize resolved decisions periodically, tagged by lens, so the user can see UX/backend/UI coverage building up as the interview progresses.
 
-## Closing the interview
+## After the interview
 
-Once all questions are exhausted, present a final summary of every answer, grouped and tagged by lens (UX/backend/UI). Flag each answer so the user can see, at a glance, which decisions are settled and which surfaced new knowledge — insight that wasn't already recorded in the codebase or existing docs (a resolved ambiguity, an agreed constraint, a design decision, a non-obvious rationale).
+When all questions are exhausted, run these two steps in order.
 
-If any new knowledge was created during the interview, make the last question: "Would you like to add these <items> to our knowledge base?" — where `<items>` names the specific new pieces of knowledge (e.g. "these 3 decisions", "this data-model constraint and error-handling flow"). If nothing new was created, skip this question and just close with the summary.
+### Step 1 — Close the interview
+
+Present a final summary of every answer, grouped and tagged by lens (UX/backend/UI). Flag each answer so the user can see, at a glance, which decisions are settled and which surfaced new knowledge — insight that wasn't already recorded in the codebase or existing docs (a resolved ambiguity, an agreed constraint, a design decision, a non-obvious rationale).
+
+If any new knowledge was created during the interview, ask: "Would you like to add these <items> to our knowledge base?" — where `<items>` names the specific new pieces of knowledge (e.g. "these 3 decisions", "this data-model constraint and error-handling flow"). If nothing new was created, skip this question.
 
 The knowledge base is the "Buddy knowledge base" Notion page: https://app.notion.com/p/Buddy-knowledge-base-39ba86b45b848010931cc6f19685706c (page id `39ba86b45b848010931cc6f19685706c`). If the user says yes, append the confirmed new knowledge to that page via the Notion tools — each item written as a clear, self-contained entry (what was decided and the rationale), tagged by lens where relevant. Only write the items the user approved.
+
+### Step 2 — Create a context briefing
+
+After closing, offer to produce a context briefing that distills what was just scoped into a plain-language, shareable onboarding document for a teammate with zero prior context. Follow the logic of the `context-briefing` skill (https://github.com/remipjp/Skillset/tree/master/context-briefing): settle scope, audience, and jargon first; then write it in that skill's structure and voice — lead with the user and the problem, not the data model. The interview just completed is exactly the "already researched and scoped" input that skill expects, so draw on the resolved decisions rather than doing new discovery. If the `context-briefing` skill is available in the session, invoke it directly.
 
 ## When to use this vs. plain grilling
 
