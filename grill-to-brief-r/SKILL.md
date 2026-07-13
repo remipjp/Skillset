@@ -1,5 +1,5 @@
 ---
-name: grill-to-brief
+name: grill-to-brief-r
 description: Interview the user about a feature idea — weighing UX, backend, and UI implications together for each decision — then close with a lens-tagged summary, capture any new knowledge, and produce a shareable context briefing. Use when the user wants to design or stress-test a feature and get the team on the same page, mentions "grill me on this feature", "grill to brief", "interview me about a feature", or wants cross-cutting UX/backend/UI coverage in one pass.
 ---
 
@@ -27,7 +27,7 @@ The knowledge base is the "Buddy knowledge base" Notion page: https://app.notion
 
 ## Step 4 — Create a context briefing
 
-After closing, offer to produce a context briefing that distills what was just scoped into a plain-language, shareable onboarding document for a teammate with zero prior context. Follow the logic of the `context-briefing` skill (https://github.com/remipjp/Skillset/tree/master/context-briefing): settle scope, audience, and jargon first; then write it in that skill's structure and voice — lead with the user and the problem, not the data model. The interview just completed is exactly the "already researched and scoped" input that skill expects, so draw on the resolved decisions rather than doing new discovery. If the `context-briefing` skill is available in the session, invoke it directly.
+After closing, offer to produce a context briefing that distills what was just scoped into a plain-language, shareable onboarding document for a teammate with zero prior context. Follow the logic of the `context-briefing-r` skill (https://github.com/remipjp/Skillset/tree/master/context-briefing-r): settle scope, audience, and jargon first; then write it in that skill's structure and voice — lead with the user and the problem, not the data model. The interview just completed is exactly the "already researched and scoped" input that skill expects, so draw on the resolved decisions rather than doing new discovery. If the `context-briefing-r` skill is available in the session, invoke it directly.
 
 ## When to use this vs. plain grilling
 

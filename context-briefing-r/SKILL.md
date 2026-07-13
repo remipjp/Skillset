@@ -1,11 +1,11 @@
 ---
-name: context-briefing
+name: context-briefing-r
 description: Produce a plain-language, jargon-free briefing that gets a teammate with zero prior context up to speed on a feature or initiative, scoped to a chosen slice and audience. Use when the user wants to onboard a designer, engineer, PM, or stakeholder onto work already scoped in this session, or says things like "explain this to my designer", "brief my team", "write context for someone new", "get us on the same page".
 ---
 
 Write a briefing that a smart teammate with **zero prior context** on this project can read once and understand what we're building and why. Assume the reader knows nothing about the product, the domain, the codebase, or the decisions made so far — but is intelligent and just needs the picture drawn for them.
 
-This skill assumes the feature/initiative has **already been researched and scoped** earlier in the session (e.g. via `/grilling`, `/grill-to-brief`, `/research`, or Linear/codebase exploration). Its job is to distill that shared understanding into something shareable — not to do new discovery. If little context exists yet, gather it first (or tell the user), then brief.
+This skill assumes the feature/initiative has **already been researched and scoped** earlier in the session (e.g. via `/grilling`, `/grill-to-brief-r`, `/research`, or Linear/codebase exploration). Its job is to distill that shared understanding into something shareable — not to do new discovery. If little context exists yet, gather it first (or tell the user), then brief.
 
 ## Before writing — settle three things
 
