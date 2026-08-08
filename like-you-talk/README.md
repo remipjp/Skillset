@@ -1,6 +1,6 @@
 # like-you-talk
 
-Most writing gets worse the moment we sit down to write it. We reach for fancy words, tense up, and bury good ideas under prose nobody would ever say out loud.
+Most writing gets worse the moment we sit down to write it. We reach for fancy words, ~~stiffen up~~ tense up, and bury good ideas under prose nobody would ever say out loud.
 
 This skill teaches Claude to do the opposite. It turns two Paul Graham essays, [Write Like You Talk](https://paulgraham.com/talk.html) (2015) and [Write Simply](https://paulgraham.com/simply.html) (2021), into five rules Claude actually follows:
 
